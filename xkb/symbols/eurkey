@@ -2,11 +2,11 @@
 // Copyright: Copyright 2012 Steffen Bruentjen (eurkey (at) steffen dot bruentjen dot de)
 // modified by Christoph Roeper <spam (at) roeper dot biz> (use firstName to mail)
 
-default  partial alphanumeric_keys modifier_keys 
+default  partial alphanumeric_keys modifier_keys
 xkb_symbols "basic"  {
 
         include "us(basic)"
- 
+
         name[Group1] = "EurKEY (US based layout with european letters)";
 
         key <AB01> { [              z,                 Z,               agrave,               Agrave ] };
@@ -20,7 +20,7 @@ xkb_symbols "basic"  {
         key <AB09> { [         period,           greater,               oacute,               Oacute ] };
         key <AB10> { [          slash,          question,         questiondown,            0x1002026 ] };
         key <AC01> { [              a,                 A,           adiaeresis,           Adiaeresis ] };
-        key <AC02> { [              s,                 S,               ssharp,              section ] };
+        key <AC02> { [              s,                 S,               ssharp,              U1E9E ] };
         key <AC03> { [              d,                 D,                U0111,                  U0110 ] };
         key <AC04> { [              f,                 F,               egrave,               Egrave ] };
         key <AC05> { [              g,                 G,               eacute,               Eacute ] };
@@ -52,9 +52,9 @@ xkb_symbols "basic"  {
         key <AE08> { [              8,          asterisk,   doublelowquotemark,   singlelowquotemark ] };
         key <AE09> { [              9,         parenleft,  leftdoublequotemark,  leftsinglequotemark ] };
         key <AE10> { [              0,        parenright, rightdoublequotemark, rightsinglequotemark ] };
-        key <AE11> { [          minus,        underscore,            copyright,           numerosign ] };
+        key <AE11> { [          minus,        underscore,            U2713,           U2717 ] };
         key <AE12> { [          equal,              plus,             multiply,             division ] };
-        key <BKSL> { [      backslash,               bar,              notsign,            brokenbar ] };
+        key <BKSL> { [      backslash,               bar,     dead_small_schwa,            brokenbar ] };
         key <TLDE> { [          grave,        asciitilde,           dead_grave,           dead_tilde ] };
         key <KPDL> { [      KP_Delete,        KP_Decimal,                comma,                comma ] };
 
