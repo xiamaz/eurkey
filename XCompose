@@ -52,10 +52,10 @@ include "%S/en_US.UTF-8/Compose"
 <Multi_key> <bar> : "∨"
 
 <Multi_key> <c> : "∝"
-<Multi_key> <.> : "⋅"
+<Multi_key> <period> : "⋅"
 <Multi_key> <o> : "∘"
-<Multi_key> <:> : "∴"
-<Multi_key> <;> : "∵"
+<Multi_key> <colon> : "∴"
+<Multi_key> <semicolon> : "∵"
 <Multi_key> <z> : "↯"
 <Multi_key> <F> : "∎"
 
