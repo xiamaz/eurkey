@@ -12,3 +12,5 @@ eurokey version 1.3.
 
 * dead notsign implementing arrow keys, percentages and trademark signs
 * dead mathematical shift-altgr on altgr+shift+m
+
+This is completely based on the [eurkey layout by Steffen Brüntjen](https://eurkey.steffen.bruentjen.eu/) under GPLv3.
